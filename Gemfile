@@ -12,7 +12,10 @@ group :development, :test do
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
+  gem 'guard-cucumber'
   gem 'childprocess', '0.3.6'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 group :test do
